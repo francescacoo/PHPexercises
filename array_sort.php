@@ -8,7 +8,8 @@ array_walk($height,'intval');
 
 sort($height,SORT_NUMERIC);
 $tot=1;
-for($i=$n-1;$i--;$i=0){
+for($i=$n-1;$i--;$i==0){
+
     if($height[$i]==$height[$n-1]){
         $tot++;
     }
